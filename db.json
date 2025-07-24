@@ -4,92 +4,5213 @@
       "email": "ibrahim2@gmail.com",
       "password": "$2a$10$cIiDcTcUCVUOz9jmk.wmKekLl37bRkJanCprjmR8nPP4Gkt33IYKS",
       "firstName": "ibrahim",
-      "lastName": "Abozaid"
+      "lastName": "Abozaid",
+      "whatsUp Number": "1234567890",
+      "address": "cairo",
+      "phone": "1234567890",
+      "role": "user",
+      "image": "",
+      "orders": []
     }
   ],
   "categories": [
     {
-      "title": "men",
-      "prefix": "men",
-      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/cfb357649428__hp-w12-22032022-h_m-men.jpg"
+      "name": { "ar": "دنيا الكيك", "en": "Donia El Cake" },
+      "url": "http://localhost:3001/products/productsBycategory?category=donia-el-cake"
     },
     {
-      "title": "women",
-      "prefix": "women",
-      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/30d354267a09b__hp-w12-22032022-h_m-women_dresses.jpg"
+      "name": { "ar": "كريب بلبن", "en": "Crepe Blabn" },
+      "url": "http://localhost:3001/products/productsBycategory?category=crepe-blabn"
     },
     {
-      "title": "kids",
-      "prefix": "kids",
-      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/37d243d334c63__hp-w12-22032022-h_m-kids1.jpg"
+      "name": { "ar": "اللؤة", "en": "LOQA" },
+      "url": "http://localhost:3001/products/productsBycategory?category=loqa"
     },
     {
-      "title": "baby",
-      "prefix": "baby",
-      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/28948d47ae6e8__h_m-w39-28092022-4066c-1x1.jpg"
+      "name": { "ar": "دباديبو", "en": "Dabadibo" },
+      "url": "http://localhost:3001/products/productsBycategory?category=dabadibo"
     },
     {
-      "title": "sport",
-      "prefix": "sport",
-      "img": "https://cdn-eu.dynamicyield.com/api/9876644/images/1dda9ae79a671__h_m-w40-06102022-7416b-1x1.jpg"
+      "name": { "ar": "مامبو", "en": "Mambo" },
+      "url": "http://localhost:3001/products/productsBycategory?category=mambo"
+    },
+    {
+      "name": { "ar": "دنيا الارز", "en": "Donia el Roz" },
+      "url": "http://localhost:3001/products/productsBycategory?category=donia-el-roz"
+    },
+    {
+      "name": { "ar": "دنيا القشطوطه", "en": "Donia El Qashtouta" },
+      "url": "http://localhost:3001/products/productsBycategory?category=donia-el-qashtouta"
+    },
+    {
+      "name": { "ar": "بمبوظة دليفري", "en": "Bamboza Dlv" },
+      "url": "http://localhost:3001/products/productsBycategory?category=bamboza-dlv"
+    },
+    {
+      "name": { "ar": "دنيا الكشري", "en": "Donia El Koshary" },
+      "url": "http://localhost:3001/products/productsBycategory?category=donia-el-koshary"
+    },
+    {
+      "name": { "ar": "دنيا ام على", "en": "Donia Om Ali" },
+      "url": "http://localhost:3001/products/productsBycategory?category=donia-om-ali"
     }
   ],
   "products": [
     {
-      "title": "Regular Fit Jersey top",
-      "price": 249,
-      "cat_prefix": "men",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:f264ff90-42ae-4504-b4ee-613fcbb9ac84/as/EID-bc7de5720a83a6770fa80ca6e86d7c41ecf0593b.jpg?preferwebp=true&height=630",
-      "max": 4
+      "title": {
+        "ar": "ريمونتادا مانجو",
+        "en": "Remontada Mango"
+      },
+      "description": {
+        "ar": "طبقة أرز بلبن مع قطعة القشطوطة المتسقسقه قشطة مثلجة بالحليب و كريمة المانجو و قطع المانجو إلاسماعيلاوي الفريش",
+        "en": "A layer of rice pudding with a piece of alqushtuta metsksaka with milk-frosted qashta, mango cream, and fresh ismailawi mango pieces."
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 115.0,
+        "sa": 130.0,
+        "ae": 125.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "rice", "qashta"],
+      "brand": "بــ لبن",
+      "sku": "REM-MANGO-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000024",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000025",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000026",
+        "updatedAt": "2025-07-16T10:45:00.000027",
+        "barcode": "3170832177887",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638827446876869522",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638827446876869522",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638827446876869522"
+      ]
     },
     {
-      "title": "Regular Fit Jersey top",
-      "price": 229,
-      "cat_prefix": "men",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:f264ff90-42ae-4504-b4ee-613fcbb9ac84/as/EID-bc7de5720a83a6770fa80ca6e86d7c41ecf0593b.jpg?preferwebp=true&height=630",
-      "max": 4
+      "title": {
+        "ar": "كيك هبة دبي شيكولاتة وسط",
+        "en": "Heba Dubai Chocolate medium"
+      },
+      "description": {
+        "ar": "كيكه الفادج عليها خليط من الكنافه والبستاشيو و صوص الشيكولاته المميز",
+        "en": "Fudge cake + pistachio kunafa mix + chocolate mousse + rice Crispy rice + Nutella sauce"
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 150.0,
+        "sa": 165.0,
+        "ae": 160.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["chocolate", "kunafa", "mousse"],
+      "brand": "بــ لبن",
+      "sku": "HIBA-CHOC-MED-002",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000028",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000029",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000030",
+        "updatedAt": "2025-07-16T10:45:00.000031",
+        "barcode": "3170832177888",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7B54C9069BB2FA0F1AD97FE8C7EE4C21",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7B54C9069BB2FA0F1AD97FE8C7EE4C21",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7B54C9069BB2FA0F1AD97FE8C7EE4C21"
+      ]
     },
     {
-      "title": "Cotton polo shirt",
-      "price": 200,
-      "cat_prefix": "men",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:fce16ffe-4e26-44c8-b6eb-88a71c379875/as/EID-a6269e23248df475bf18b1aaa453af100cb49976.jpg?preferwebp=true&height=630",
-      "max": 3
+      "title": {
+        "ar": "كيك هبة دبي كيندر وسط",
+        "en": "Hiba Dubai Kinder medium"
+      },
+      "description": {
+        "ar": "كيكه الفادج عليها خليط من الكنافه والبستاشيو و صوص الكندر المميز",
+        "en": "Fudge cake topped with a mixture of kunafa, pistachio and special kinder sauce"
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 145.0,
+        "sa": 160.0,
+        "ae": 155.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["kinder", "kunafa", "pistachio"],
+      "brand": "بــ لبن",
+      "sku": "HIBA-KINDER-MED-002",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000032",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000033",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000034",
+        "updatedAt": "2025-07-16T10:45:00.000035",
+        "barcode": "3170832177889",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/913BBE081BC4B5932FAC537071A2B0E7",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/913BBE081BC4B5932FAC537071A2B0E7",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/913BBE081BC4B5932FAC537071A2B0E7"
+      ]
     },
     {
-      "title": "Cotton t-shirt",
-      "price": 100,
-      "cat_prefix": "women",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:9d7e5c1c-fe66-4bd9-95a6-ac2b86a3ad5b/as/EID-964ef5824c873286bd16b2f5d2ddbde966ca4a8d.jpg?preferwebp=true&height=630",
-      "max": 2
+      "title": {
+        "ar": "كيك هبة دبي بندق وسط",
+        "en": "Heba Dubai Hazelnut medium"
+      },
+      "description": {
+        "ar": "كيك فادج بمزيج من الكنافة، الفستق، صوص الشوكولاتة و مكسرات البندق المميزة.",
+        "en": "Fudge cake with a mixture of kunafa, pistachio, chocolate sauce and special hazelnut nuts."
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 170.0,
+        "sa": 185.0,
+        "ae": 180.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["hazelnut", "kunafa", "chocolate"],
+      "brand": "بــ لبن",
+      "sku": "HIBA-HAZEL-MED-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000036",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000037",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000038",
+        "updatedAt": "2025-07-16T10:45:00.000039",
+        "barcode": "3170832177890",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/8BA93EF79AF7B5C0ADA52125005A03AE",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/8BA93EF79AF7B5C0ADA52125005A03AE",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/8BA93EF79AF7B5C0ADA52125005A03AE"
+      ]
     },
     {
-      "title": "Sweatshirt shorts",
-      "price": 300,
-      "cat_prefix": "women",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:9d7e5c1c-fe66-4bd9-95a6-ac2b86a3ad5b/as/EID-964ef5824c873286bd16b2f5d2ddbde966ca4a8d.jpg?preferwebp=true&height=630",
-      "max": 3
+      "title": {
+        "ar": "كريم دي لا كريم دبي",
+        "en": "cream de la cream dubai"
+      },
+      "description": {
+        "ar": "قطع المانجو المسكرة مع ميكس الكنافة بيستاشيو فوق الفرنش كيك و كريمة الباناكوتا الايطالي",
+        "en": "Mango pieces with pistachio kunafa mix over French cake and Italian panna cotta cream"
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 150.0,
+        "sa": 165.0,
+        "ae": 160.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "panna cotta", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "CREAM-DUBAI-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000040",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000041",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000042",
+        "updatedAt": "2025-07-16T10:45:00.000043",
+        "barcode": "3170832177891",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638869003052414979",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638869003052414979",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638869003052414979"
+      ]
     },
     {
-      "title": "Velour top",
-      "price": 300,
-      "cat_prefix": "kids",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:d24c06de-1795-4464-a432-91831eae3346/as/EID-51d884bfc4eaee513d614add0a85cba6fcf89157.jpg?preferwebp=true&height=630",
-      "max": 2
+      "title": {
+        "ar": "كبسة صغيرة",
+        "en": "Mini Kabsa"
+      },
+      "description": {
+        "ar": "كيك الفادج مع خليط كنافة بيستاشيو و موس شيكولاتة و رز رايس كريسبي مع صوص نوتيلا",
+        "en": "Fudge cake, pistachio kunafa mix, chocolate mousse, rice Crispy rice And Nutella sauce"
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 90.0,
+        "sa": 100.0,
+        "ae": 95.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["kabsa", "fudge", "nutella"],
+      "brand": "بــ لبن",
+      "sku": "KABSA-MINI-002",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000044",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000045",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000046",
+        "updatedAt": "2025-07-16T10:45:00.000047",
+        "barcode": "3170832177892",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/06FF9267FC2A1F9C8EC29579D52B2E9A",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/06FF9267FC2A1F9C8EC29579D52B2E9A",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/06FF9267FC2A1F9C8EC29579D52B2E9A"
+      ]
     },
     {
-      "title": "Pile all-in-one suit with ears",
-      "price": 500,
-      "cat_prefix": "baby",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:e00f63ce-0457-45de-a7f0-14548c5dc4ea/as/EID-0e2c181bacf8f9ee2c3cfdd6117e14ad7e504ce1.jpg?preferwebp=true&height=630",
-      "max": 2
+      "title": {
+        "ar": "تشيز بومب",
+        "en": "Cheese Bomb"
+      },
+      "description": {
+        "ar": "كنافة بالسمنة البلدي، كريمي تشيز، وغرقانة في صوص البستاشيو والشوكولاتة البلجيكي",
+        "en": "Kunafa with local ghee, cream cheese, and gharqana in pistachio sauce and Belgian chocolate."
+      },
+      "category": {
+        "ar": "دنيا الكيك",
+        "en": "Donia El Cake"
+      },
+      "price": {
+        "eg": 115.0,
+        "sa": 130.0,
+        "ae": 125.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["cheese", "kunafa", "pistachio"],
+      "brand": "بــ لبن",
+      "sku": "CHEESE-BOMB-002",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000048",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000049",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000050",
+        "updatedAt": "2025-07-16T10:45:00.000051",
+        "barcode": "3170832177893",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7A5865413679D8B26308204EC7C0C412",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7A5865413679D8B26308204EC7C0C412",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7A5865413679D8B26308204EC7C0C412"
+      ]
     },
     {
-      "title": "Regular Fit football shirt",
-      "price": 449,
-      "cat_prefix": "sport",
-      "img": "https://media.alshaya.com/adobe/assets/urn:aaid:aem:37c2a3e7-ed2c-4d40-9201-8230ae3ebbc3/as/EID-ce9fd7af2c3c21a27fbbe0240fe5f6a143e74a60.jpg?preferwebp=true&height=630",
-      "max": 2
+      "title": {
+        "ar": "كريب دبي",
+        "en": "Dubai Crepe"
+      },
+      "description": {
+        "ar": "عجين الكريب المحمص محشو بالكنافة المحمصة بالسمن البلدي ممزوجه بصوص البستاشيو المميز و مغطي بصوص النوتيلا",
+        "en": "Toasted crepe dough stuffed with toasted kunafa with local ghee mixed with special pistachio sauce and covered with Nutella sauce."
+      },
+      "category": {
+        "ar": "كريب بلبن",
+        "en": "Crepe Blabn"
+      },
+      "price": {
+        "eg": 130.0,
+        "sa": 145.0,
+        "ae": 140.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["crepe", "kunafa", "nutella"],
+      "brand": "بــ لبن",
+      "sku": "CREPE-DUBAI-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000052",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000053",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000054",
+        "updatedAt": "2025-07-16T10:45:00.000055",
+        "barcode": "3170832177894",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/49703D0EC4C8D0E619CD4BC4B6A64907",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/49703D0EC4C8D0E619CD4BC4B6A64907",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/49703D0EC4C8D0E619CD4BC4B6A64907"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كريب دبي ماجنم",
+        "en": "Dubai magnum crepe"
+      },
+      "description": {
+        "ar": "كريب بصوص النوتيلا و كيك الڤادچ و خليط كنافة البستاشيو الفاخر",
+        "en": "Crepe with Nutella sauce, fudge cake, and a luxurious pistachio kunafa mixture"
+      },
+      "category": {
+        "ar": "كريب بلبن",
+        "en": "Crepe Blabn"
+      },
+      "price": {
+        "eg": 140.0,
+        "sa": 155.0,
+        "ae": 150.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["crepe", "nutella", "pistachio"],
+      "brand": "بــ لبن",
+      "sku": "CREPE-MAGN-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000056",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000057",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000058",
+        "updatedAt": "2025-07-16T10:45:00.000059",
+        "barcode": "3170832177895",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638840435028863611",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638840435028863611",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638840435028863611"
+      ]
+    },
+    {
+      "title": {
+        "ar": "لؤه مانجو",
+        "en": "LOQA Mango"
+      },
+      "description": {
+        "ar": "باستري كريم كريمية وميلفي بالزبدة الفرنساوي و قطع المانجو الفريش",
+        "en": "Creamy pastry cream, French butter mille feuille, and fresh mango pieces"
+      },
+      "category": {
+        "ar": "اللؤة",
+        "en": "LOQA"
+      },
+      "price": {
+        "eg": 120.0,
+        "sa": 135.0,
+        "ae": 130.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "pastry", "loqa"],
+      "brand": "بــ لبن",
+      "sku": "LOQA-MNG-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000060",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000061",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000062",
+        "updatedAt": "2025-07-16T10:45:00.000063",
+        "barcode": "3170832177896",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": []
+    },
+    {
+      "title": {
+        "ar": "دباديبو قطعة واحدة",
+        "en": "Dabadibo 1 Piece"
+      },
+      "description": {
+        "ar": "طبقة موس شيكوالته ثم طبقة صوص بستاشيو ثم كيكة فادج وطبقة موس شيكوالته",
+        "en": "A layer of chocolate mousse, then a layer of pistachio sauce, then a layer of fudge cake, and a layer of chocolate mousse."
+      },
+      "category": {
+        "ar": "دباديبو",
+        "en": "Dabadibo"
+      },
+      "price": {
+        "eg": 85.0,
+        "sa": 95.0,
+        "ae": 90.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["chocolate", "mousse", "pistachio"],
+      "brand": "بــ لبن",
+      "sku": "DABADIBO-1PC-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000064",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000065",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000066",
+        "updatedAt": "2025-07-16T10:45:00.000067",
+        "barcode": "3170832177897",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/Baheeg__10_May1056638837664528926352.jpg",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/Baheeg__10_May1056638837664528926352.jpg",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/Baheeg__10_May1056638837664528926352.jpg"
+      ]
+    },
+    {
+      "title": {
+        "ar": "دباديبو 3 قطع",
+        "en": "Dabadibo 3 pieces"
+      },
+      "description": {
+        "ar": "طبقة موس شيكوالته ثم طبقة صوص بستاشيو ثم كيكة فادج وطبقة موس شيكوالته و3 انواع من الصوصات ( نوتيلا-بيستاشيو-كيندر )",
+        "en": "A layer of chocolate mousse, then a layer of pistachio sauce, then a layer of fudge cake, and a layer of chocolate mousse. And 3 types of sauces (Nutella, pistachio, and Kinder)"
+      },
+      "category": {
+        "ar": "دباديبو",
+        "en": "Dabadibo"
+      },
+      "price": {
+        "eg": 225.0,
+        "sa": 240.0,
+        "ae": 235.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["chocolate", "mousse", "variety"],
+      "brand": "بــ لبن",
+      "sku": "DABADIBO-3PC-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000068",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000069",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000070",
+        "updatedAt": "2025-07-16T10:45:00.000071",
+        "barcode": "3170832177898",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/Baheeg__10_May1065638837664742541268.jpg",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/Baheeg__10_May1065638837664742541268.jpg",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/Baheeg__10_May1065638837664742541268.jpg"
+      ]
+    },
+    {
+      "title": {
+        "ar": "مامبو مانجو اكليرك",
+        "en": "mambo mango Eklerk"
+      },
+      "description": {
+        "ar": "قطع المانجو المسكرة مع ميكس الكنافة بيستاشيو فوق الفرنش كيك و الكريم بروليه",
+        "en": "Sugary mango pieces with pistachio kunafa mix over French cake and creme brulee"
+      },
+      "category": {
+        "ar": "مامبو",
+        "en": "Mambo"
+      },
+      "price": {
+        "eg": 150.0,
+        "sa": 165.0,
+        "ae": 160.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "creme brulee", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "MAMBO-MANGO-EKL-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000076",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000077",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000078",
+        "updatedAt": "2025-07-16T10:45:00.000079",
+        "barcode": "3170832177900",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/1638780884545698424.png",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/1638780884545698424.png",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/1638780884545698424.png"
+      ]
+    },
+    {
+      "title": {
+        "ar": "ارز بلبن ساده",
+        "en": "Plain Rice Pudding"
+      },
+      "description": {
+        "ar": "ارز بلبن سادة محضر من حليب طازج",
+        "en": "Plain rice pudding made from fresh milk"
+      },
+      "category": {
+        "ar": "دنيا الارز",
+        "en": "Donia el Roz"
+      },
+      "price": {
+        "eg": 25.0,
+        "sa": 30.0,
+        "ae": 28.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "creme brulee", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "MAMBO-MANGO-EKL-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:45:00.000076",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:45:00.000077",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:45:00.000078",
+        "updatedAt": "2025-07-16T10:45:00.000079",
+        "barcode": "3170832177900",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C578E0BE97D1EFA9E2F9FC4400CAC818",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C578E0BE97D1EFA9E2F9FC4400CAC818",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C578E0BE97D1EFA9E2F9FC4400CAC818"
+      ]
+    },
+    {
+      "title": {
+        "ar": "ارز قشطه مكسرات",
+        "en": "Rice Pudding With Qeshta And Nuts"
+      },
+      "description": {
+        "ar": "ارز بلبن مع قشطة لذيذة طازجة ومكسرات",
+        "en": "Rice pudding with fresh delicious Qeshta and nuts"
+      },
+      "category": {
+        "ar": "دنيا الارز",
+        "en": "Donia el Roz"
+      },
+      "price": {
+        "eg": 65.0,
+        "sa": 75.0,
+        "ae": 70.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["rice", "qeshta", "nuts"],
+      "brand": "بــ لبن",
+      "sku": "RICE-QESHTA-NUTS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000004",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000005",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000006",
+        "updatedAt": "2025-07-16T10:55:00.000007",
+        "barcode": "3170832177902",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/439B0D27BF626C2FD66451245E3D7963",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/439B0D27BF626C2FD66451245E3D7963",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/439B0D27BF626C2FD66451245E3D7963"
+      ]
+    },
+    {
+      "title": {
+        "ar": "ارز بلبن مانجو",
+        "en": "Rice Pudding With Mango"
+      },
+      "description": {
+        "ar": "ارز بلبن مع قطع من المانجو الفريش.",
+        "en": "Rice pudding with pieces of fresh mango."
+      },
+      "category": {
+        "ar": "دنيا الارز",
+        "en": "Donia el Roz"
+      },
+      "price": {
+        "eg": 55.0,
+        "sa": 65.0,
+        "ae": 60.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["rice", "mango", "pudding"],
+      "brand": "بــ لبن",
+      "sku": "RICE-MANGO-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000008",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000009",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000010",
+        "updatedAt": "2025-07-16T10:55:00.000011",
+        "barcode": "3170832177903",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/9FCD81D851D28C69F4D3CE15EEC414BB",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/9FCD81D851D28C69F4D3CE15EEC414BB",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/9FCD81D851D28C69F4D3CE15EEC414BB"
+      ]
+    },
+    {
+      "title": {
+        "ar": "ارز بلبن مكسرات",
+        "en": "Rice Pudding And Nuts"
+      },
+      "description": {
+        "ar": "ارز بلبن مع مكسرات لذيذة",
+        "en": "Rice pudding with delicious nuts"
+      },
+      "category": {
+        "ar": "دنيا الارز",
+        "en": "Donia el Roz"
+      },
+      "price": {
+        "eg": 55.0,
+        "sa": 65.0,
+        "ae": 60.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["rice", "nuts", "pudding"],
+      "brand": "بــ لبن",
+      "sku": "RICE-NUTS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000012",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000013",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000014",
+        "updatedAt": "2025-07-16T10:55:00.000015",
+        "barcode": "3170832177904",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/6F99164F9D3681DD8361B8AD380D9331",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/6F99164F9D3681DD8361B8AD380D9331",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/6F99164F9D3681DD8361B8AD380D9331"
+      ]
+    },
+    {
+      "title": {
+        "ar": "شوكلاليتا ارز",
+        "en": "CHOKLALITA RICE"
+      },
+      "description": {
+        "ar": "",
+        "en": ""
+      },
+      "category": {
+        "ar": "دنيا الارز",
+        "en": "Donia el Roz"
+      },
+      "price": {
+        "eg": 55.0,
+        "sa": 65.0,
+        "ae": 60.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["chocolate", "rice", "pudding"],
+      "brand": "بــ لبن",
+      "sku": "CHOK-RICE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000016",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000017",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000018",
+        "updatedAt": "2025-07-16T10:55:00.000019",
+        "barcode": "3170832177905",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/551ED995D7A712D560750F68BFF7A753",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/551ED995D7A712D560750F68BFF7A753",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/551ED995D7A712D560750F68BFF7A753"
+      ]
+    },
+    {
+      "title": {
+        "ar": "ارز بلبن لوتس",
+        "en": "Belgian Lotus Pudding Rice"
+      },
+      "description": {
+        "ar": "ارز بلبن مغطي بطبقة من لوتس بلجيكي",
+        "en": "Rice pudding covered with a layer of Belgian lotus"
+      },
+      "category": {
+        "ar": "دنيا الارز",
+        "en": "Donia el Roz"
+      },
+      "price": {
+        "eg": 60.0,
+        "sa": 70.0,
+        "ae": 65.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["rice", "lotus", "pudding"],
+      "brand": "بــ لبن",
+      "sku": "RICE-LOTUS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000020",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000021",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000022",
+        "updatedAt": "2025-07-16T10:55:00.000023",
+        "barcode": "3170832177906",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/55AEA67EBBCE13A2905F20BEF3068622",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/55AEA67EBBCE13A2905F20BEF3068622",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/55AEA67EBBCE13A2905F20BEF3068622"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة كراميل",
+        "en": "Qashtota Caramel"
+      },
+      "description": {
+        "ar": "قطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و صوص الكراميل المميز",
+        "en": "A piece of special fudge cake spread with fresh milk, a layer of cream and special caramel sauce"
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 70.0,
+        "sa": 80.0,
+        "ae": 75.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "caramel", "fudge"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-CARAMEL-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000024",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000025",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000026",
+        "updatedAt": "2025-07-16T10:55:00.000027",
+        "barcode": "3170832177907",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/485916838455AD3A314255ADCF2D12C8",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/485916838455AD3A314255ADCF2D12C8",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/485916838455AD3A314255ADCF2D12C8"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة كريمة",
+        "en": "Creamy qashtota dish"
+      },
+      "description": {
+        "ar": "كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة",
+        "en": "A distinctive fudge cake layered with fresh milk and a layer of cream"
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 70.0,
+        "sa": 80.0,
+        "ae": 75.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "cream", "fudge"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-CREAM-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000028",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000029",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000030",
+        "updatedAt": "2025-07-16T10:55:00.000031",
+        "barcode": "3170832177908",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/8D81E79F417B4F152D5677E3DAAC3421",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/8D81E79F417B4F152D5677E3DAAC3421",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/8D81E79F417B4F152D5677E3DAAC3421"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة لوتس",
+        "en": "Qashtota lotus dish"
+      },
+      "description": {
+        "ar": "قطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من بودر بسكويت اللوتس و صوص اللوتس",
+        "en": "A piece of special fudge cake spread with fresh milk, a layer of cream, a layer of lotus biscuit powder and lotus sauce."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 100.0,
+        "sa": 115.0,
+        "ae": 110.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "lotus", "fudge"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-LOTUS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000032",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000033",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000034",
+        "updatedAt": "2025-07-16T10:55:00.000035",
+        "barcode": "3170832177909",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C7C00D9A2AB577F7DE0F0B7229D6E519",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C7C00D9A2AB577F7DE0F0B7229D6E519",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C7C00D9A2AB577F7DE0F0B7229D6E519"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة مانجا",
+        "en": "Qashtota mango plate"
+      },
+      "description": {
+        "ar": "قطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من قطع المانجو الفريش",
+        "en": "A piece of distinctive fudge cake spread with fresh milk, a layer of cream, and a layer of fresh mango pieces"
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 85.0,
+        "sa": 95.0,
+        "ae": 90.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "mango", "fudge"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-MANGO-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000036",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000037",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000038",
+        "updatedAt": "2025-07-16T10:55:00.000039",
+        "barcode": "3170832177910",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/E61EDC027512A937F20D8839A1EE5A05",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/E61EDC027512A937F20D8839A1EE5A05",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/E61EDC027512A937F20D8839A1EE5A05"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة مكسرات",
+        "en": "Qashtota nuts plate"
+      },
+      "description": {
+        "ar": "قطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من المكسرات المحمصة",
+        "en": "A piece of special fudge cake spread with fresh milk, a layer of cream and a layer of toasted nuts"
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 100.0,
+        "sa": 115.0,
+        "ae": 110.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "nuts", "fudge"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-NUTS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000040",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000041",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000042",
+        "updatedAt": "2025-07-16T10:55:00.000043",
+        "barcode": "3170832177911",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/2C983A52B2B46B76229B812F87701572",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/2C983A52B2B46B76229B812F87701572",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/2C983A52B2B46B76229B812F87701572"
+      ]
+    },
+    {
+      "title": {
+        "ar": "شوكلاليتا قشطوطة قشطة",
+        "en": "Chocolate Qashtota Qashta"
+      },
+      "description": {
+        "ar": "قطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من بودر بسكويت الاوريو و صوص النوتيلا و صوص الوايت شوكليت",
+        "en": "A piece of special fudge cake spread with fresh milk, a layer of cream, a layer of Oreo cookie powder, Nutella sauce, and white chocolate sauce."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 80.0,
+        "sa": 90.0,
+        "ae": 85.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["chocolate", "qashta", "oreo"],
+      "brand": "بــ لبن",
+      "sku": "CHOC-QASHTA-002",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000044",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000045",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000046",
+        "updatedAt": "2025-07-16T10:55:00.000047",
+        "barcode": "3170832177912",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/CABD60028D0006807EB0842683340625",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/CABD60028D0006807EB0842683340625",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/CABD60028D0006807EB0842683340625"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطه سوبر لوكس",
+        "en": "Qashtota super luxe"
+      },
+      "description": {
+        "ar": "طبقة من الارز بالحليب الطازج وقطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من بودر بسكويت اللوتس و صوص اللوتس + صوص البيستاشيو + صوص النوتيلا",
+        "en": "A layer of rice with fresh milk, a piece of special fudge cake spread with fresh milk, a layer of cream, a layer of lotus biscuit powder, lotus sauce + pistachio sauce + Nutella sauce."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 125.0,
+        "sa": 140.0,
+        "ae": 135.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "luxury", "variety"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-SUPER-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000048",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000049",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000050",
+        "updatedAt": "2025-07-16T10:55:00.000051",
+        "barcode": "3170832177913",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/B9C80C790B6CC46A3868B24A5E74D800",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/B9C80C790B6CC46A3868B24A5E74D800",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/B9C80C790B6CC46A3868B24A5E74D800"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة أرز بلبن لوتس",
+        "en": "Qashtota Lotus pudding rice"
+      },
+      "description": {
+        "ar": "طبقة من الارز بالحليب الطازج وقطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من بودر بسكويت اللوتس و صوص اللوتس",
+        "en": "A layer of rice with fresh milk, a piece of special fudge cake spread with fresh milk, a layer of cream, a layer of lotus biscuit powder and lotus sauce."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 105.0,
+        "sa": 120.0,
+        "ae": 115.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "lotus", "rice"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-LOTUS-RICE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000052",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000053",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000054",
+        "updatedAt": "2025-07-16T10:55:00.000055",
+        "barcode": "3170832177914",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/4DC137A20635CC703737BC8908D8E30D",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/4DC137A20635CC703737BC8908D8E30D",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/4DC137A20635CC703737BC8908D8E30D"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة أرز بلبن مكسرات",
+        "en": "Qashtota Rice pudding with nuts"
+      },
+      "description": {
+        "ar": "طبقة من الأرز بلبن بالحليب الطازج وقطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من المكسرات المحمصة",
+        "en": "A layer of rice pudding with fresh milk, a piece of special fudge cake drizzled with fresh milk, a layer of cream, and a layer of roasted nuts."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 100.0,
+        "sa": 115.0,
+        "ae": 110.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "nuts", "rice"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-NUTS-RICE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000056",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000057",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000058",
+        "updatedAt": "2025-07-16T10:55:00.000059",
+        "barcode": "3170832177915",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/E4A2D4E6C89577F7BB6FFF27182AF4A4",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/E4A2D4E6C89577F7BB6FFF27182AF4A4",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/E4A2D4E6C89577F7BB6FFF27182AF4A4"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة أرز بلبن مانجا",
+        "en": "Qashtota rice pudding mango"
+      },
+      "description": {
+        "ar": "طبقة من الارز بالحليب الطازج وقطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من قطع المانجو الفريش",
+        "en": "A layer of rice with fresh milk, a piece of special fudge cake spread with fresh milk, a layer of cream, and a layer of fresh mango pieces."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 85.0,
+        "sa": 95.0,
+        "ae": 90.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "mango", "rice"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-MANGO-RICE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000060",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000061",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000062",
+        "updatedAt": "2025-07-16T10:55:00.000063",
+        "barcode": "3170832177916",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/95F3CD0D7DA44D4E94BDEC5E6030CCF0",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/95F3CD0D7DA44D4E94BDEC5E6030CCF0",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/95F3CD0D7DA44D4E94BDEC5E6030CCF0"
+      ]
+    },
+    {
+      "title": {
+        "ar": "قشطوطة أرز بلبن كريمة",
+        "en": "Qashtota rice pudding cream"
+      },
+      "description": {
+        "ar": "أرز بلبن بالحليب الطازج و قطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة",
+        "en": "Rice pudding with fresh milk, a piece of special fudge cake spread with fresh milk and a layer of cream"
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 70.0,
+        "sa": 80.0,
+        "ae": 75.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["qashtota", "cream", "rice"],
+      "brand": "بــ لبن",
+      "sku": "QASHTOTA-CREAM-RICE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000064",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000065",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000066",
+        "updatedAt": "2025-07-16T10:55:00.000067",
+        "barcode": "3170832177917",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/D7A641C698DACA19167125CB8FCE8AC4",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/D7A641C698DACA19167125CB8FCE8AC4",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/D7A641C698DACA19167125CB8FCE8AC4"
+      ]
+    },
+    {
+      "title": {
+        "ar": "شوكلاليتا قشطوطة ارز",
+        "en": "Choklalita Rice Qashtouta"
+      },
+      "description": {
+        "ar": "طبقة من الارز بالحليب الطازج وقطعة كيك الفادج المميز المتسقسق بالحليب الطازج و طبقة من الكريمة و طبقة من بودر بسكويت الاوريو و صوص النوتيلا و صوص الوايت شوكليت",
+        "en": "A layer of rice with fresh milk, a piece of special fudge cake spread with fresh milk, a layer of cream, a layer of Oreo cookie powder, Nutella sauce, and white chocolate sauce."
+      },
+      "category": {
+        "ar": "دنيا القشطوطه",
+        "en": "Donia El Qashtouta"
+      },
+      "price": {
+        "eg": 95.0,
+        "sa": 110.0,
+        "ae": 105.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["chocolate", "qashtota", "rice"],
+      "brand": "بــ لبن",
+      "sku": "CHOK-QASHTA-RICE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000068",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000069",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000070",
+        "updatedAt": "2025-07-16T10:55:00.000071",
+        "barcode": "3170832177918",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/806F0B7F0D5F14A355D551217758AA30",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/806F0B7F0D5F14A355D551217758AA30",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/806F0B7F0D5F14A355D551217758AA30"
+      ]
+    },
+    {
+      "title": {
+        "ar": "علبة بمبوظة ص ديليفري",
+        "en": "BAMBOUZA SMALL DLV"
+      },
+      "description": {
+        "ar": "قطع فاكهة عايمة ف المانجا الفريش مع طبقة كريمة لباني بالزبادي اليوناني مع عصير المانجو",
+        "en": "Fruit pieces floating in fresh mango with a layer of Greek yogurt cream and mango juice."
+      },
+      "category": {
+        "ar": "بمبوظة دليفري",
+        "en": "Bamboza Dlv"
+      },
+      "price": {
+        "eg": 60.0,
+        "sa": 70.0,
+        "ae": 65.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "yogurt", "fruit"],
+      "brand": "بــ لبن",
+      "sku": "BAMBOUZA-SMALL-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000072",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000073",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000074",
+        "updatedAt": "2025-07-16T10:55:00.000075",
+        "barcode": "3170832177919",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784649479188975",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784649479188975",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784649479188975"
+      ]
+    },
+    {
+      "title": {
+        "ar": "علبة بمبوظة صغيرة لوتس ديليفري",
+        "en": "BAMBOUZA SMALL LOTUS DLV"
+      },
+      "description": {
+        "ar": "قطع فاكهة عايمة ف المانجا الفريش مع طبقة كريمة لباني بالزبادي اليوناني مع عصير المانجو و صوص اللوتس",
+        "en": "Fruit pieces floating in fresh mango with a layer of Greek yogurt cream, mango juice and lotus sauce."
+      },
+      "category": {
+        "ar": "بمبوظة دليفري",
+        "en": "Bamboza Dlv"
+      },
+      "price": {
+        "eg": 75.0,
+        "sa": 85.0,
+        "ae": 80.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "lotus", "yogurt"],
+      "brand": "بــ لبن",
+      "sku": "BAMBOUZA-SMALL-LOTUS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T10:55:00.000076",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T10:55:00.000077",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T10:55:00.000078",
+        "updatedAt": "2025-07-16T10:55:00.000079",
+        "barcode": "3170832177920",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652453004336",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652453004336",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652453004336"
+      ]
+    },
+    {
+      "title": {
+        "ar": "علبة بمبوظة صغيرة قشطة ديليفري",
+        "en": "BAMBOUZA SMALL QESHTA DLV"
+      },
+      "description": {
+        "ar": "قطع فاكهة عايمة ف المانجا الفريش مع طبقة كريمة لباني بالزبادي اليوناني مع عصير المانجو و القشطة البلدي",
+        "en": "Fruit pieces floating in fresh mango with a layer of Greek yogurt cream, mango juice and local cream."
+      },
+      "category": {
+        "ar": "بمبوظة دليفري",
+        "en": "Bamboza Dlv"
+      },
+      "price": {
+        "eg": 75.0,
+        "sa": 85.0,
+        "ae": 80.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "qeshta", "yogurt"],
+      "brand": "بــ لبن",
+      "sku": "BAMBOUZA-SMALL-QESHTA-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T11:03:00.000080",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T11:03:00.000081",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T11:03:00.000082",
+        "updatedAt": "2025-07-16T11:03:00.000083",
+        "barcode": "3170832177921",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784648160982540",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784648160982540",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784648160982540"
+      ]
+    },
+
+    {
+      "title": {
+        "ar": "علبة بمبوظة كبيرة ديليفري",
+        "en": "BAMBOUZA LARGE DLV"
+      },
+      "description": {
+        "ar": "قطع فاكهة عايمة ف المانجا الفريش مع طبقة كريمة لباني بالزبادي اليوناني مع عصير المانجو",
+        "en": "Fruit pieces floating in fresh mango with a layer of Greek yogurt cream and mango juice."
+      },
+      "category": {
+        "ar": "بمبوظة دليفري",
+        "en": "Bamboza Dlv"
+      },
+      "price": {
+        "eg": 110.0,
+        "sa": 120.0,
+        "ae": 115.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "yogurt", "fruit"],
+      "brand": "بــ لبن",
+      "sku": "BAMBOUZA-LARGE-001",
+      "weight": 1.0,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T11:03:00.000096",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T11:03:00.000097",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T11:03:00.000098",
+        "updatedAt": "2025-07-16T11:03:00.000099",
+        "barcode": "3170832177925",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652020542157",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652020542157",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652020542157"
+      ]
+    },
+    {
+      "title": {
+        "ar": "علبة بمبوظة كبيرة لوتس ديليفري",
+        "en": "BAMBOUZA LARGE LOTUS DLV"
+      },
+      "description": {
+        "ar": "قطع فاكهة عايمة ف المانجا الفريش مع طبقة كريمة لباني بالزبادي اليوناني مع عصير المانجو و صوص اللوتس",
+        "en": "Fruit pieces floating in fresh mango with a layer of Greek yogurt cream, mango juice and lotus sauce."
+      },
+      "category": {
+        "ar": "بمبوظة دليفري",
+        "en": "Bamboza Dlv"
+      },
+      "price": {
+        "eg": 125.0,
+        "sa": 135.0,
+        "ae": 130.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "lotus", "yogurt"],
+      "brand": "بــ لبن",
+      "sku": "BAMBOUZA-LARGE-LOTUS-001",
+      "weight": 1.0,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T11:03:00.000100",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T11:03:00.000101",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T11:03:00.000102",
+        "updatedAt": "2025-07-16T11:03:00.000103",
+        "barcode": "3170832177926",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652999624897",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652999624897",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784652999624897"
+      ]
+    },
+    {
+      "title": {
+        "ar": "علبة بمبوظة كبيرة قشطة ديليفري",
+        "en": "BAMBOUZA LARGE QESHTA DLV"
+      },
+      "description": {
+        "ar": "قطع فاكهة عايمة ف المانجا الفريش مع طبقة كريمة لباني بالزبادي اليوناني مع عصير المانجو و القشطة البلدي",
+        "en": "Fruit pieces floating in fresh mango with a layer of Greek yogurt cream, mango juice and local cream."
+      },
+      "category": {
+        "ar": "بمبوظة دليفري",
+        "en": "Bamboza Dlv"
+      },
+      "price": {
+        "eg": 125.0,
+        "sa": 135.0,
+        "ae": 130.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بسبوسة",
+            "en": "Basbousa"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "نوتيلا",
+            "en": "Nutella"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "قشطة",
+            "en": "Cream"
+          },
+          "price": 25
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 35
+        },
+        {
+          "name": {
+            "ar": "لوتس صوص",
+            "en": "Lotus Sauce"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "لوتس بودر",
+            "en": "Lotus Powder"
+          },
+          "price": 30
+        },
+        {
+          "name": {
+            "ar": "عسل نحل",
+            "en": "Honey"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 6.17,
+      "rating": 3.71,
+      "stock": 92,
+      "tags": ["mango", "qeshta", "yogurt"],
+      "brand": "بــ لبن",
+      "sku": "BAMBOUZA-LARGE-QESHTA-001",
+      "weight": 1.0,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعمه خيالي!",
+          "date": "2025-07-16T11:03:00.000104",
+          "reviewerName": "Ahmed Mostafa",
+          "reviewerEmail": "ahmed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "ممتاز ولكن السعر مرتفع قليلاً",
+          "date": "2025-07-16T11:03:00.000105",
+          "reviewerName": "Nour Youssef",
+          "reviewerEmail": "nour@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T11:03:00.000106",
+        "updatedAt": "2025-07-16T11:03:00.000107",
+        "barcode": "3170832177927",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784648801224924",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784648801224924",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638784648801224924"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري بيستاشيو صغير",
+        "en": "Koshary Pistachio Small"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من صوص البيستاشيو وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of pistachio sauce, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 70.0,
+        "sa": 75.0,
+        "ae": 72.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "قشطة إضافية",
+            "en": "Extra Qeshta"
+          },
+          "price": 10
+        },
+        {
+          "name": {
+            "ar": "مكسرات",
+            "en": "Nuts"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.3,
+      "stock": 80,
+      "tags": ["koshary", "pistachio", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-PISTACHIO-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعم البيستاشيو مذهل!",
+          "date": "2025-07-16T14:28:00.000128",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "لذيذ لكن الكمية صغيرة",
+          "date": "2025-07-16T14:28:00.000129",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000130",
+        "updatedAt": "2025-07-16T14:28:00.000131",
+        "barcode": "3170832177933",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/F8304840C82FBD902A3CFC1BFF313DD3",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/F8304840C82FBD902A3CFC1BFF313DD3",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/F8304840C82FBD902A3CFC1BFF313DD3"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري اوريو نوتيلا صغير",
+        "en": "Koshary Oreo Nutella Small"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة الطازجة وطبقة من بسكويت اوريو وشوكولاتة نوتيلا وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of fresh cream, a layer of Oreo biscuit, Nutella chocolate, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 60.0,
+        "sa": 65.0,
+        "ae": 62.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "نوتيلا إضافية",
+            "en": "Extra Nutella"
+          },
+          "price": 10
+        },
+        {
+          "name": {
+            "ar": "اوريو",
+            "en": "Oreo"
+          },
+          "price": 5
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.2,
+      "stock": 80,
+      "tags": ["koshary", "oreo", "nutella"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-OREO-NUTELLA-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "مزيج رائع من النكهات!",
+          "date": "2025-07-16T14:28:00.000132",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "حلو لكن الاوريو قليل",
+          "date": "2025-07-16T14:28:00.000133",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000134",
+        "updatedAt": "2025-07-16T14:28:00.000135",
+        "barcode": "3170832177934",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/9189D02552F2AC88A4A07343E293A3CF",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/9189D02552F2AC88A4A07343E293A3CF",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/9189D02552F2AC88A4A07343E293A3CF"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري نوتيلا صغير",
+        "en": "Koshary Nutella Small"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة الطازجة وطبقة من شوكولاتة نوتيلا وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of fresh cream, a layer of Nutella chocolate, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 60.0,
+        "sa": 65.0,
+        "ae": 62.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "نوتيلا إضافية",
+            "en": "Extra Nutella"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.2,
+      "stock": 80,
+      "tags": ["koshary", "nutella", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-NUTELLA-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "النوتيلا تضيف طعم مميز!",
+          "date": "2025-07-16T14:28:00.000136",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "لذيذ لكن الكمية صغيرة",
+          "date": "2025-07-16T14:28:00.000137",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000138",
+        "updatedAt": "2025-07-16T14:28:00.000139",
+        "barcode": "3170832177935",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870840852879316",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870840852879316",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870840852879316"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري مانجو صغير",
+        "en": "Koshary Mango Small"
+      },
+      "description": {
+        "ar": "طبقة أرز، طبقة كنافة، طبقة قشطة، طبقة من قطع المانجو الطازج، طبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of fresh mango pieces, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 60.0,
+        "sa": 65.0,
+        "ae": 62.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "مانجو إضافية",
+            "en": "Extra Mango"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.1,
+      "stock": 80,
+      "tags": ["koshary", "mango", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-MANGO-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "المانجو طازجة جدًا!",
+          "date": "2025-07-16T14:28:00.000140",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم خفيف وجميل",
+          "date": "2025-07-16T14:28:00.000141",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000142",
+        "updatedAt": "2025-07-16T14:28:00.000143",
+        "barcode": "3170832177936",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/01F48D730E997ECC6751FC5A1D823BAA",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/01F48D730E997ECC6751FC5A1D823BAA",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/01F48D730E997ECC6751FC5A1D823BAA"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري لوتس صغير",
+        "en": "Koshary Lotus Small"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من صوص البيستاشيو وصوص اللوتس وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of pistachio sauce, lotus sauce, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 65.0,
+        "sa": 70.0,
+        "ae": 67.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "لوتس إضافي",
+            "en": "Extra Lotus"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.3,
+      "stock": 80,
+      "tags": ["koshary", "lotus", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-LOTUS-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "نكهة اللوتس ممتازة!",
+          "date": "2025-07-16T14:28:00.000144",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "لذيذ لكن السعر يمكن يكون أقل",
+          "date": "2025-07-16T14:28:00.000145",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000146",
+        "updatedAt": "2025-07-16T14:28:00.000147",
+        "barcode": "3170832177937",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/31D31BD522EEF5E120A4FD9AADB2B233",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/31D31BD522EEF5E120A4FD9AADB2B233",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/31D31BD522EEF5E120A4FD9AADB2B233"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري لوتس بيستاشيو صغير",
+        "en": "Koshary Lotus & Pistachio Small"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من صوص بسكويت اللوتس وبسكويت مجروش وصوص البيستاشيو وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of lotus biscuit sauce, crushed biscuits, pistachio sauce, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 70.0,
+        "sa": 75.0,
+        "ae": 72.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بيستاشيو إضافي",
+            "en": "Extra Pistachio"
+          },
+          "price": 10
+        },
+        {
+          "name": {
+            "ar": "لوتس إضافي",
+            "en": "Extra Lotus"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.4,
+      "stock": 80,
+      "tags": ["koshary", "lotus", "pistachio"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-LOTUS-PISTACHIO-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "مزيج مثالي من اللوتس والبيستاشيو!",
+          "date": "2025-07-16T14:28:00.000148",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم غني لكن الكمية صغيرة",
+          "date": "2025-07-16T14:28:00.000149",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000150",
+        "updatedAt": "2025-07-16T14:28:00.000151",
+        "barcode": "3170832177938",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870839132355779",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870839132355779",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870839132355779"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري كيندر صغير",
+        "en": "Koshary Kinder Small"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من شوكولاتة كيندر وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of Kinder chocolate, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 65.0,
+        "sa": 70.0,
+        "ae": 67.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "كيندر إضافي",
+            "en": "Extra Kinder"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.3,
+      "stock": 80,
+      "tags": ["koshary", "kinder", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-KINDER-SMALL-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "الكيندر يعطي طعم حلو رائع!",
+          "date": "2025-07-16T14:28:00.000152",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "لذيذ لكن السعر يمكن يكون أقل",
+          "date": "2025-07-16T14:28:00.000153",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000154",
+        "updatedAt": "2025-07-16T14:28:00.000155",
+        "barcode": "3170832177939",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/A5308513119F02B2DD09776E9B0EAA98",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/A5308513119F02B2DD09776E9B0EAA98",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/A5308513119F02B2DD09776E9B0EAA98"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري مانجو كبير",
+        "en": "Koshary Mango Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من قطع المانجو الطازجة وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of fresh mango pieces, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 85.0,
+        "sa": 90.0,
+        "ae": 87.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "مانجو إضافية",
+            "en": "Extra Mango"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.2,
+      "stock": 70,
+      "tags": ["koshary", "mango", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-MANGO-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "المانجو طازجة وكثيرة!",
+          "date": "2025-07-16T14:28:00.000156",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم مميز لكن السعر مرتفع",
+          "date": "2025-07-16T14:28:00.000157",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000158",
+        "updatedAt": "2025-07-16T14:28:00.000159",
+        "barcode": "3170832177940",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C422AC69397EF2D1E6DE45EFFC2DB234",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C422AC69397EF2D1E6DE45EFFC2DB234",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/C422AC69397EF2D1E6DE45EFFC2DB234"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري بيستاشيو كبير",
+        "en": "Koshary Pistachio Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من صوص البيستاشيو وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of pistachio sauce, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 100.0,
+        "sa": 105.0,
+        "ae": 102.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بيستاشيو إضافي",
+            "en": "Extra Pistachio"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.4,
+      "stock": 70,
+      "tags": ["koshary", "pistachio", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-PISTACHIO-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "كمية كبيرة وطعم رائع!",
+          "date": "2025-07-16T14:28:00.000160",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "النكهة قوية لكن السعر عالي",
+          "date": "2025-07-16T14:28:00.000161",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000162",
+        "updatedAt": "2025-07-16T14:28:00.000163",
+        "barcode": "3170832177941",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/0EC77C768AD48A8928D2253DC30247F9",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/0EC77C768AD48A8928D2253DC30247F9",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/0EC77C768AD48A8928D2253DC30247F9"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري بيستاشيو لوتس كبير",
+        "en": "Koshari Pistachio Lotus Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من صوص البيستاشيو وصوص اللوتس وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of pistachio sauce, lotus sauce, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 100.0,
+        "sa": 105.0,
+        "ae": 102.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "بيستاشيو إضافي",
+            "en": "Extra Pistachio"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "لوتس إضافي",
+            "en": "Extra Lotus"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.5,
+      "stock": 70,
+      "tags": ["koshary", "pistachio", "lotus"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-PISTACHIO-LOTUS-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "مزيج فاخر وممتع!",
+          "date": "2025-07-16T14:28:00.000164",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم رائع لكن الكمية متوسطة",
+          "date": "2025-07-16T14:28:00.000165",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000166",
+        "updatedAt": "2025-07-16T14:28:00.000167",
+        "barcode": "3170832177942",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": []
+    },
+    {
+      "title": {
+        "ar": "كشري كيندر كبير",
+        "en": "Koshari Kinder Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من شوكولاتة كيندر وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of Kinder chocolate, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 95.0,
+        "sa": 100.0,
+        "ae": 97.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "كيندر إضافي",
+            "en": "Extra Kinder"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.4,
+      "stock": 70,
+      "tags": ["koshary", "kinder", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-KINDER-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "الكيندر يعطي طعم حلو مميز!",
+          "date": "2025-07-16T14:28:00.000168",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "لذيذ لكن السعر مرتفع",
+          "date": "2025-07-16T14:28:00.000169",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000170",
+        "updatedAt": "2025-07-16T14:28:00.000171",
+        "barcode": "3170832177943",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/26E343B80331DBE71D53C4ED757B7100",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/26E343B80331DBE71D53C4ED757B7100",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/26E343B80331DBE71D53C4ED757B7100"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري اوريو ونوتيلا كبير",
+        "en": "Koshary Oreo Nutella Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة الطازجة وطبقة من بسكويت اوريو وشوكولاتة نوتيلا وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of fresh cream, a layer of Oreo biscuit, Nutella chocolate, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 80.0,
+        "sa": 85.0,
+        "ae": 82.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "نوتيلا إضافية",
+            "en": "Extra Nutella"
+          },
+          "price": 15
+        },
+        {
+          "name": {
+            "ar": "اوريو",
+            "en": "Oreo"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.3,
+      "stock": 70,
+      "tags": ["koshary", "oreo", "nutella"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-OREO-NUTELLA-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "مزيج مثالي من النكهات!",
+          "date": "2025-07-16T14:28:00.000172",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم رائع لكن الكمية متوسطة",
+          "date": "2025-07-16T14:28:00.000173",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000174",
+        "updatedAt": "2025-07-16T14:28:00.000175",
+        "barcode": "3170832177944",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/81C7FC64BE4919E089C03468983F895E",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/81C7FC64BE4919E089C03468983F895E",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/81C7FC64BE4919E089C03468983F895E"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري نوتيلا كبير",
+        "en": "Koshary Nutella Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة الطازجة وطبقة من شوكولاتة نوتيلا وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of fresh cream, a layer of Nutella chocolate, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 80.0,
+        "sa": 85.0,
+        "ae": 82.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "نوتيلا إضافية",
+            "en": "Extra Nutella"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.3,
+      "stock": 70,
+      "tags": ["koshary", "nutella", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-NUTELLA-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "النوتيلا تجعل الطبق مميزًا!",
+          "date": "2025-07-16T14:28:00.000176",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "لذيذ لكن السعر مرتفع",
+          "date": "2025-07-16T14:28:00.000177",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000178",
+        "updatedAt": "2025-07-16T14:28:00.000179",
+        "barcode": "3170832177945",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870840549569620",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870840549569620",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/mmw_638870840549569620"
+      ]
+    },
+    {
+      "title": {
+        "ar": "كشري لوتس كبير",
+        "en": "Koshary Lotus Large"
+      },
+      "description": {
+        "ar": "طبقة من الأرز وطبقة من الكنافة وطبقة من الكريمة وطبقة من صوص بسكويت اللوتس وبسكويت مجروش وطبقة أخيرة من الجلاش",
+        "en": "A layer of rice, a layer of kunafa, a layer of cream, a layer of lotus biscuit sauce, crushed biscuits, and a final layer of goulash"
+      },
+      "category": {
+        "ar": "دنيا الكشري",
+        "en": "Donia El Koshary"
+      },
+      "price": {
+        "eg": 95.0,
+        "sa": 100.0,
+        "ae": 97.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "لوتس إضافي",
+            "en": "Extra Lotus"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.4,
+      "stock": 70,
+      "tags": ["koshary", "lotus", "kunafa"],
+      "brand": "بــ لبن",
+      "sku": "KOSHARY-LOTUS-LARGE-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "اللوتس يعطي طعم مميز!",
+          "date": "2025-07-16T14:28:00.000180",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم رائع لكن السعر مرتفع",
+          "date": "2025-07-16T14:28:00.000181",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000182",
+        "updatedAt": "2025-07-16T14:28:00.000183",
+        "barcode": "3170832177946",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/47685C20E27EBA7EE07A0FDEAA238712",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/47685C20E27EBA7EE07A0FDEAA238712",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/47685C20E27EBA7EE07A0FDEAA238712"
+      ]
+    },
+    {
+      "title": {
+        "ar": "أم على بالسمنة البلدى و القشطة",
+        "en": "Umm Ali Casserole With Baladi Ghee and Qeshta"
+      },
+      "description": {
+        "ar": "طاجن برام أم علي بالحليب الساخن الطازج بالسمن البلدي وطبقة من القشطة الطازجة",
+        "en": "Um Ali casserole Bram with fresh hot milk, baladi ghee and layer of fresh Qeshta"
+      },
+      "category": {
+        "ar": "دنيا أم علي",
+        "en": "Donia Om Ali"
+      },
+      "price": {
+        "eg": 55.0,
+        "sa": 60.0,
+        "ae": 57.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "قشطة إضافية",
+            "en": "Extra Qeshta"
+          },
+          "price": 10
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.2,
+      "stock": 90,
+      "tags": ["umm ali", "qeshta", "ghee"],
+      "brand": "بــ لبن",
+      "sku": "UMMALI-GHEE-QESHTA-001",
+      "weight": 0.4,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "القشطة تضيف نكهة رائعة!",
+          "date": "2025-07-16T14:28:00.000184",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم تقليدي مميز",
+          "date": "2025-07-16T14:28:00.000185",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000186",
+        "updatedAt": "2025-07-16T14:28:00.000187",
+        "barcode": "3170832177947",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/A009FA342338DAB1F3A901E619B18232",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/A009FA342338DAB1F3A901E619B18232",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/A009FA342338DAB1F3A901E619B18232"
+      ]
+    },
+    {
+      "title": {
+        "ar": "أم على بالسمنة البلدى و المكسرات",
+        "en": "Umm Ali Casserole With Baladi Ghee and Nuts"
+      },
+      "description": {
+        "ar": "طاجن برام أم علي بالحليب الساخن الطازج بالسمن البلدي وطبقة من المكسرات المشكلة المحمصة",
+        "en": "Umm Ali casserole Bram with fresh hot milk, baladi ghee and layer of roasted mixed nuts"
+      },
+      "category": {
+        "ar": "دنيا أم علي",
+        "en": "Donia Om Ali"
+      },
+      "price": {
+        "eg": 65.0,
+        "sa": 70.0,
+        "ae": 67.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "مكسرات إضافية",
+            "en": "Extra Nuts"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.3,
+      "stock": 90,
+      "tags": ["umm ali", "nuts", "ghee"],
+      "brand": "بــ لبن",
+      "sku": "UMMALI-GHEE-NUTS-001",
+      "weight": 0.4,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "المكسرات تضيف قوام رائع!",
+          "date": "2025-07-16T14:28:00.000188",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم جيد لكن السعر مرتفع",
+          "date": "2025-07-16T14:28:00.000189",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000190",
+        "updatedAt": "2025-07-16T14:28:00.000191",
+        "barcode": "3170832177948",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/FA6E680EF2B04F2FB157D9560976E647",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/FA6E680EF2B04F2FB157D9560976E647",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/FA6E680EF2B04F2FB157D9560976E647"
+      ]
+    },
+    {
+      "title": {
+        "ar": "أم على بالسمنة البلدى",
+        "en": "Umm Ali Casserole With Baladi Ghee"
+      },
+      "description": {
+        "ar": "طاجن برام أم علي بالحليب الساخن الطازج بالسمن البلدي",
+        "en": "Umm Ali casserole Bram with fresh hot milk and baladi ghee"
+      },
+      "category": {
+        "ar": "دنيا أم علي",
+        "en": "Donia Om Ali"
+      },
+      "price": {
+        "eg": 40.0,
+        "sa": 45.0,
+        "ae": 42.0
+      },
+      "addons": [],
+      "discountPercentage": 5.0,
+      "rating": 4.1,
+      "stock": 90,
+      "tags": ["umm ali", "ghee"],
+      "brand": "بــ لبن",
+      "sku": "UMMALI-GHEE-001",
+      "weight": 0.3,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "طعم تقليدي رائع!",
+          "date": "2025-07-16T14:28:00.000192",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "بسيط وممتع",
+          "date": "2025-07-16T14:28:00.000193",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000194",
+        "updatedAt": "2025-07-16T14:28:00.000195",
+        "barcode": "3170832177949",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7C36794FD808E1E084E21D612B4C2DFE",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7C36794FD808E1E084E21D612B4C2DFE",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/7C36794FD808E1E084E21D612B4C2DFE"
+      ]
+    },
+    {
+      "title": {
+        "ar": "أم على بالسمنة البلدى و قشطة و مكسرات",
+        "en": "Umm Ali Casserole With Baladi Ghee, Qeshta and Nuts"
+      },
+      "description": {
+        "ar": "طاجن برام أم علي بالحليب الساخن الطازج بالسمن البلدي وطبقة من القشطة الطازجة و المكسرات المشكلة المحمصة",
+        "en": "Umm Ali casserole Bram with fresh hot milk, baladi ghee, layer of fresh qeshta and roasted mixed nuts"
+      },
+      "category": {
+        "ar": "دنيا أم علي",
+        "en": "Donia Om Ali"
+      },
+      "price": {
+        "eg": 75.0,
+        "sa": 80.0,
+        "ae": 77.0
+      },
+      "addons": [
+        {
+          "name": {
+            "ar": "قشطة إضافية",
+            "en": "Extra Qeshta"
+          },
+          "price": 10
+        },
+        {
+          "name": {
+            "ar": "مكسرات إضافية",
+            "en": "Extra Nuts"
+          },
+          "price": 15
+        }
+      ],
+      "discountPercentage": 5.0,
+      "rating": 4.4,
+      "stock": 90,
+      "tags": ["umm ali", "qeshta", "nuts"],
+      "brand": "بــ لبن",
+      "sku": "UMMALI-GHEE-QESHTA-NUTS-001",
+      "weight": 0.5,
+      "availabilityStatus": "In Stock",
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "مزيج مثالي من القشطة والمكسرات!",
+          "date": "2025-07-16T14:28:00.000196",
+          "reviewerName": "Mohamed Ali",
+          "reviewerEmail": "mohamed@example.com"
+        },
+        {
+          "rating": 4,
+          "comment": "طعم فاخر لكن السعر عالي",
+          "date": "2025-07-16T14:28:00.000197",
+          "reviewerName": "Sara Khaled",
+          "reviewerEmail": "sara@example.com"
+        }
+      ],
+      "returnPolicy": "لا يمكن الاسترجاع بعد الشراء.",
+      "minimumOrderQuantity": 1,
+      "meta": {
+        "createdAt": "2025-07-16T14:28:00.000198",
+        "updatedAt": "2025-07-16T14:28:00.000199",
+        "barcode": "3170832177950",
+        "qrCode": "https://cdn.dummyjson.com/public/qr-code.png"
+      },
+      "images": [
+        "https://images.deliveryhero.io/image/talabat/Menuitems/24BC5865CCBC01E4FB6691523CA6A4B9",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/24BC5865CCBC01E4FB6691523CA6A4B9",
+        "https://images.deliveryhero.io/image/talabat/Menuitems/24BC5865CCBC01E4FB6691523CA6A4B9"
+      ]
     }
   ],
   "wishlist": []
